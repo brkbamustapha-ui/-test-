@@ -1,5 +1,8 @@
 {
   "cleanUrls": true,
+  "rewrites": [
+    { "source": "/assets/icons/:name.webp", "destination": "/api/icon?n=:name" }
+  ],
   "headers": [
     { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
     { "source": "/admin", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] }
