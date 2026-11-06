@@ -1,0 +1,10 @@
+{
+  "name": "ieat-fast-food",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "iEat Fast Food Oran — site vitrine premium + panel administrateur",
+  "dependencies": {
+    "@vercel/blob": "1.1.1"
+  }
+}
